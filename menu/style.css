@@ -1,0 +1,48 @@
+body {
+    background-color: #ece6de;
+    font-family: 'Playfair Display', serif;
+    cursor: default;
+}
+
+div#menu {
+    margin: 25px auto;
+    width: 90%;
+    max-width: 750px;
+}
+
+div#menu > h2 {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 50px 0px;
+}
+
+div.item {
+    margin-bottom: 15px;
+}
+
+div.item > h4 {
+    font-size: 1.25em;
+    margin: 0px;
+}
+
+div.item > span {
+    font-size: 1.25em;
+    margin: 0px;
+    float: right;
+    margin-left: 25px;
+}
+
+div.item > span > img {
+    width: 14px;
+    margin-bottom: -2px;
+}
+
+div.item > p {
+    margin: 0px;
+}
+
+div.item > p.description {
+    font-size: 0.85em;
+    font-style: italic;
+}
